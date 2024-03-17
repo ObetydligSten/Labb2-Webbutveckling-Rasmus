@@ -1,0 +1,118 @@
+.portfolio{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #222;
+}
+
+.portfolio .prodiv{
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio .prodiv .project{
+    min-height: 28rem;
+    width: 25%;
+    text-align: center;
+    margin: 3rem 2rem 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+    border-radius: 0 10px;
+    box-shadow: 0 0 15px;
+    background-color: #333;
+}
+
+.portfolio .prodiv .portfolioHeader{
+    height: 28rem;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    margin: 3rem 2rem 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.portfolio .prodiv .portfolioHeader .miniHeader{
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    color: gold;
+    border: 3px solid gold;
+    padding: 5.2rem 0.2rem;
+    justify-content: space-between;
+    z-index: 10;
+    border-radius: 100%;
+    top: 3rem;
+}
+
+.portfolio .prodiv .portfolioHeader p a{
+    text-decoration: none;
+    position: relative;
+    color: gold;
+    top: 3rem;
+}
+
+.portfolio .prodiv .project h3{
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.portfolio .prodiv .project p{
+    margin: 0 20px 0 20px;
+    text-align: left;
+    color: gold;
+}
+
+.portfolio .prodiv .project .btn{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+    padding: 1%;
+    background-color: #444;
+    color: gold;
+    text-decoration: none;
+    margin: 0 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1000px){
+    .portfolio .prodiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio .prodiv .portfolioHeader{
+        width: 70%;
+    }
+    .portfolio .prodiv .project{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    .portfolio .prodiv .portfolioHeader{
+        width: 90%;
+    }
+    .portfolio .prodiv .project{
+        width: 90%;
+        min-height: 30rem;
+
+    }
+}

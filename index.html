@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUT23 - Labb 2</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/omMig.css">
+    <link rel="stylesheet" href="/css/kontakt.css">
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="/css/cv.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="navbar" id="navbar">
+            <ul>
+                <a href="#home"><li>HEM</li></a>
+                <a href="#mig"><li>OM MIG</li></a>
+                <a href="#cv"><li>CV</li></a>
+                <a href="#portfolio"><li>PORTFOLIO</li></a>
+                <a href="#kontakt"><li>KONTAKT</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h1 id="Rubrik">VÄLKOMMEN</h1>
+        <div class="spans">
+            <span class="background span1"></span>
+            <span class="background span2"></span>
+            <span class="background span3"></span>
+        </div>
+        <!--MODAL POPUP-->
+        <div class="popup" id="popup">
+            <div class="popup-inner">
+                <h3>Grattis du skrev in 1337!</h3>
+                <p>Har du hört att dom byggt ut fängelset?</p>
+                <p>Nu rymmer det fler!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mig" id="mig">
+        <div class="container">
+            <h3 class="miniHeader">OM MIG</h3>
+            <div class="bild" id="bild">
+                <img class="mainBild" id="mainBild" src="https://media.licdn.com/dms/image/D4E03AQHSCsr_sb-cgg/profile-displayphoto-shrink_800_800/0/1697636130527?e=2147483647&v=beta&t=4SrYXfk29enXvdMYEsrgJo_s3zoC0HcI9pB0Is9JzY0" alt="Bild på mig">
+                <ul><br>
+                    <li>Namn: Rasmus Glasell Johansson</li>
+                    <li>E-mail: rasmusg.johansson@hotmail.com</li>
+                    <li>Utbildning: Systemutvecklare .NET</li>
+                    <li>Skola: Campus Varberg</li>
+    
+                </ul>
+            </div>
+            <div class="text">
+                <p>Hej!</p>
+                <p>Jag heter Rasmus och håller på att utbilda mig till systemutvecklare på Campus Varberg. Tidigare har jag framförallt jobbat som Lager och transportansvarig i Industribranschen, men bestämde mig för att göra någonting nytt. 
+                    Då jag är intresserad av programmering blev utbildningen Systemutvecklare .NET valet för mig. Inom programmering så brinner jag lite extra för AI och dess påverkan på samhället.
+                    Mitt mål är att bli en bra programmerare som kan hjälpa till att utveckla samhället framåt.</p><br>
+                <p>Utöver programmering så gillar jag att spendera min fritid mestadels på golf och datorspel, men också på brädspel.</p>
+            </div>
+
+            <div class="spans">
+                <span class="background span1"></span>
+                <span class="background span2"></span>
+                <span class="background span3"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cv" id="cv">
+        <div class="container">
+            <h3 class="miniHeader">CV</h3>
+            <div class="content" id="content">
+                <h3>Arbetslivserfarenhet</h3>
+                <p id="arbete"></p>
+            </div>
+            <div class="content">
+                <h3>Utbildning</h3>
+                <p id="utbildning"></p>
+            </div>
+            <div class="content">
+                <h3>Kompetenser</h3>
+                <p class="kompetens" id="kompetens"></p><hr><br>
+                <h6>Körkort</h6>
+                <p id="körkort"></p><br><hr><br>
+                <h6>Referenser</h6>
+                <p id="referenser"></p>
+            </div>
+            <div class="spans">
+                <span class="background span1"></span>
+                <span class="background span2"></span>
+                <span class="background span3"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="prodiv">
+            <div class="portfolioHeader">
+                <a href="#portfolio#"><h3 class="miniHeader">PORTFOLIO</h3></a><br><br><br>
+                <p><a href="#portfolio#">Gå till - REACT - Portfolio sida</a></p>
+            </div>
+            <div class="project" id="project">
+                <h3>Minihackaton</h3>
+                <p>I detta minihackaton fick varje grupp 4 timmar på sig att lösa ett problem vi hade med skolan. 
+                Våran grupp kom fram till att det var svårt att hitta lediga salar då man till exempel har grupparbete och behöver en sal att sitta i. 
+                Programmet går ut på att användaren skickar in ett datum och får ut information om vilka salar som är lediga den dagen.
+                Vi hämtade informationen om salsbokningar via ett API, och jämförde vilka salar som var upptagna med en lista på alla salar.
+                På så sätt kunde vi presentera de salar som inte är bokade. </p><br>
+                <a href="#portolio#"><button class="btn"><strong>Till GitHubRepo</strong></button></a>
+            </div>
+            <div class="project" id="project">
+                <h3>OOP Slutprojekt</h3>
+                <p>Slutprojektet i kursen objektorienterad programmering där vi i en grupp av fyra fick i uppgift att utveckla en bankomat som console app.
+                Mitt huvudfokus i detta projektet låg på att göra en inloggningssida med authorisering. Utöver detta jobbade vi med agila metoder,
+                mer specifikt scrum.</p><br>
+                <a href="#portolio#"><button class="btn"><strong>Till GitHubRepo</strong></button></a>
+            </div>
+            <div class="project" id="project2">
+                <h3>Databaser Slutprojekt</h3>
+                <p>Slutprojektet i kursen Databasutveckling & databasadministation. Här har jag med hjälp av Entity Framework skapat en code first
+                databas. Där jag i en konsolapplikation hämtar ut information från databasen och presenterar den för användaren. 
+                Jag har även skapat views, stored procedures och transactions i SQL som också kan hämta ut information genom Queries. </p><br>
+                <a href="#portolio#"><button class="btn"><strong>Till GitHubRepo</strong></button></a>
+            </div>
+            <div class="project" id="project2">
+                <h3>Hemsidan</h3>
+                <p>Uppgift att skapa en hemsida som innehåller ett cv, en portfolio och lite annan information om mig själv. </p><br>
+                <a href="#portolio#"><button class="btn"><strong>Till GitHubRepo</strong></button></a>
+            </div>
+            <div class="project" id="project2">
+                <h3>Portfolio i REACT</h3>
+                <p>En portfoliosida skapad med hjälp av REACT,
+                    där jag hämtar hem alla githubrepos jag har laddat upp, 
+                    och med hjälp av ett API visar upp dom på en sida.</p>
+                    <a href="#portolio#"><button class="btn"><strong>Till GitHubRepo</strong></button></a>
+                </div>
+            <div class="spans">
+                <span class="background span1"></span>
+                <span class="background span2"></span>
+                <span class="background span3"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="kontakt" id="kontakt">
+        <div class="kontaktdiv">
+            <div class="textholder">
+                <h3 class="miniHeader">KONTAKT</h3>
+            <p>Hoppas ni haft en bra vistelse på min hemsida. 
+            Tveka inte att kontakta mig, jag försöker svara så fort som möjligt.</p>
+            </div>
+            <div class="formholder">
+                <form class="form-class">
+                    <div class="form-div">
+                        <input type="text" placeholder="  Förnamn" required>
+                        <input type="text" placeholder="  Efternamn">
+                        <input type="email" placeholder="  Email" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Meddelande" required></textarea>
+                        <input type="submit" value="Skicka">
+                    </div>
+                </form>
+            </div>
+            <div class="spans">
+                <span class="background span1"></span>
+                <span class="background span2"></span>
+                <span class="background span3"></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024: Min Hemsida</p>
+    </footer>
+
+    <script src="/javascript/eastereggs.js"></script>
+    <script src="/javascript/colorshift.js"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>

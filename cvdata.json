@@ -1,0 +1,131 @@
+{
+    "Arbetslivserfarenhet":[
+        {
+            "Id": 1,
+            "Startpunkt": "Augusti 2016",
+            "Slutpunkt": "November 2016",
+            "Arbetsgivare": "Pexymek",
+            "Befattning": "Montör",
+            "Uppgift": "Montera manglar. Fysiskt krävande arbete med fokus på teknisk färdighet."
+        },
+        {
+            "Id": 2,
+            "Startpunkt": "Februari 2017",
+            "Slutpunkt": "Juni 2023",
+            "Arbetsgivare": "Wabeno",
+            "Befattning": "Montör/Maskinoperatör/Lager- och transportansvarig",
+            "Uppgift": "Har monterat butiksinredning i tunnplåt och utvecklat min tekniska förmåga. Som maskinoperatör på Wabeno har jag opererat CNC maskiner så som stans och laserskärningsmaskin. Fick efter en tid i arbetet ett större ansvar som lager- och transportansvarig där jag skött logistiken kring in och utflöden. Har arbetat skift och med det blivit flexibel i mitt arbetssätt."
+        }
+    ],
+    "Utbildning":[
+        {
+            "Id": 1,
+            "Startpunkt": "Augusti 2013",
+            "Slutpunkt": "Juni 2016",
+            "Skola": "Peder Skrivares skola",
+            "Utbildningstyp": "Gymnasial",
+            "Utbildningsnamn": "Naturvetenskapliga programmet",
+            "Beskrivning": "Läste Naturvetenskapliga programmet med inriktning natur. Mycket fokus på kemi, biologi och fysik."
+        },
+        {
+            "Id": 2,
+            "Startpunkt": "Maj 2023",
+            "Slutpunkt": "Juni 2023",
+            "Skola": "NTI Skolan",
+            "Utbildningstyp": "Komvux",
+            "Utbildningsnamn": "Programmering 1",
+            "Beskrivning": "Läste kursen programmering 1 på distans via NTI-skolan. Här lärde jag mig grunderna i programmering med programmeringsspråket C# och programmet Visual Studios."
+        },
+        {
+            "Id": 3,
+            "Startpunkt": "September 2023",
+            "Slutpunkt": "Juni 2025",
+            "Skola": "Campus Varberg",
+            "Utbildningstyp": "Yrkeshögskola",
+            "Utbildningsnamn": "Systemutvecklare .NET",
+            "Beskrivning": "Läser just nu till Systemutvecklare .NET, där jag lärt mig mer avancerad C#, SQL, html, css, javascript, med mera."
+        }
+
+    ],
+    "Kompetenser":[
+        {
+            "Id": 1,
+            "Kompetens": "C#"
+        },
+        {
+            "Id": 2,
+            "Kompetens": ".NET"
+        },
+        {
+            "Id": 3,
+            "Kompetens": "SQL"
+        },
+        {
+            "Id": 4,
+            "Kompetens": "Scrum"
+        },
+        {
+            "Id": 5,
+            "Kompetens": "HTML"
+        },
+        {
+            "Id": 6,
+            "Kompetens": "CSS"
+        },
+        {
+            "Id": 7,
+            "Kompetens": "JavaScript"
+        },
+        {
+            "Id": 8,
+            "Kompetens": "Problemlösning"
+        },
+        {
+            "Id": 9,
+            "Kompetens": "Agila metoder"
+        },
+        {
+            "Id": 10,
+            "Kompetens": "CNC"
+        },
+        {
+            "Id": 11,
+            "Kompetens": "Truckförarutbildning"
+        },
+        {
+            "Id": 12,
+            "Kompetens": "Logistikhantering"
+        },
+        {
+            "Id": 13,
+            "Kompetens": "Prosmart"
+        },
+        {
+            "Id": 14,
+            "Kompetens": "Programmering"
+        },
+        {
+            "Id": 15,
+            "Kompetens": "Visual Studios"
+        }
+    ],
+    "Körkort":[
+        {
+            "Id": 1,
+            "Körkortstyp": "B-körkort och tillgång till bil"
+        },
+        {
+            "Id": 2,
+            "Körkortstyp": "Truckkörkort - A2, A3, A4, B1, B2, B3"
+        }
+    ],
+    "Referenser":[
+        {
+            "Id": 1,
+            "Refnamn": "Kent Bertilsson",
+            "Refposition": "Ägare av Wabeno",
+            "Refmail": "kent.bertilsson@wabeno.se",
+            "Reftel": "0705512727"
+        }
+    ]
+}

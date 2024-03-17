@@ -1,0 +1,98 @@
+.cv{
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background-color: midnightblue;
+}
+
+.cv .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cv .container .content{
+    min-height: 40rem;
+    width: 25%;
+    background: white;
+    text-align: center;
+    margin: 10rem 2rem 3rem 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 50;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+
+.cv .container .content h3{
+    margin: 20px;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.cv .container .content h6{
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.cv .container .miniHeader{
+    display: inline-block;
+    position: absolute;
+    font-size: 2rem;
+    color: gold;
+    border: 3px solid gold;
+    padding: 2.3rem 2rem;
+    justify-content: space-between;
+    z-index: 10;
+    border-radius: 100%;
+    top: 2rem; left: 2rem;
+}
+
+#arbete, #utbildning, #kompetens{
+    margin: 20px;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+#körkort, #referenser{
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.kompetens{
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.kompetens ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.kompetens li{
+    background-color: midnightblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px 8px 0;
+    box-shadow: 2px 3px 5px 0 black;
+}
+
+@media screen and (max-width: 1000px) {
+    .cv .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cv .container .content{
+        width: 60%;
+        margin-top: 3rem;
+    }
+}
